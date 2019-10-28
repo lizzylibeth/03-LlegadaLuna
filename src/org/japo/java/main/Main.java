@@ -20,19 +20,16 @@ package org.japo.java.main;
  * @author Elísabet Palomino
  */
 public class Main {
-    
+
     public static void main(String[] args) {
-        
+
         //Manera 1
-        
-        final int LlegadaLuna= 1969;
-        System.out.println ("El hombre llegó a la Luna en " + LlegadaLuna);    //System es una clase,out es un recurso de la clase System. el punto indica el recurso.  
-           
+        final int llegadaLuna = 1969;
+        System.out.println("El hombre llegó a la Luna en " + llegadaLuna);
+
         //Manera 2
-        
-        System.out.printf("El hombre llegó a la luna en %d.%n", LlegadaLuna);
-        
-        
+        System.out.printf("El hombre llegó a la luna en %d.%n", llegadaLuna);
+
     }//main
-    
+
 }//class
